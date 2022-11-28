@@ -1,0 +1,16 @@
+{
+  "name": "rest-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pyeong777 <sdp1123@naver.com>",
+  "license": "MIT",
+  "private": true,
+  "workspace": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  }
+}
